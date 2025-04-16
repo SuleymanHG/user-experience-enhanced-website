@@ -66,7 +66,7 @@ app.get('/', async function (request, response) {
     userlist: userlistResponseJSON.data,
     profilelist: profilelistResponseJSON.data,
     likedPlaylists: likedPlaylists,
-    likedds: likesResponseJSON.data,
+    likes: likesResponseJSON.data,
     user: request.session.user
   });
 });

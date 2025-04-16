@@ -1,27 +1,31 @@
 {
-  "name": "user-experience-enhanced-website",
+  "name": "userux",
   "version": "1.0.0",
   "description": "Ontwerp en maak een website voor een opdrachtgever waarbij je de website verrijkt volgens het principe van progressive enhancement.",
-  "main": "server.js",
+  "keywords": [
+    "sprint",
+    "10"
+  ],
+  "homepage": "https://github.com/fdnd-task/user-experience-enhanced-website#readme",
+  "bugs": {
+    "url": "https://github.com/fdnd-task/user-experience-enhanced-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdnd-task/user-experience-enhanced-website.git"
+  },
+  "license": "MIT",
+  "author": "J.P. Sturkenboom <j.p.sturkenboom@hva.nl>",
   "type": "module",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fdnd-task/user-experience-enhanced-website.git"
-  },
-  "author": "J.P. Sturkenboom <j.p.sturkenboom@hva.nl>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fdnd-task/user-experience-enhanced-website/issues"
-  },
-  "homepage": "https://github.com/fdnd-task/user-experience-enhanced-website#readme",
   "dependencies": {
-    "express": "^5.0.1",
+    "express": "^5.1.0",
     "liquidjs": "^10.21.0"
   }
 }
